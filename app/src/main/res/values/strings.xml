@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="action_settings">Settings</string>
+    <string name="clicked_book">CLICKED_BOOK</string>
+    <string name="selected_book">SELECTED_BOOK</string>
+    <string name="book_list">BOOK_LIST</string>
+</resources>
