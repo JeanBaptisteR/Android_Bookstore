@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Library</string>
+    <string name="app_name">jbrobert</string>
     <string name="action_settings">Settings</string>
     <string name="clicked_book">CLICKED_BOOK</string>
     <string name="selected_book">SELECTED_BOOK</string>
