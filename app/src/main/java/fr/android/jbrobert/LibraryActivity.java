@@ -11,6 +11,7 @@ import fr.android.jbrobert.model.Book;
 import fr.android.jbrobert.vue.BookDetailFragment;
 import fr.android.jbrobert.vue.BookListFragment;
 import fr.android.jbrobert.vue.BookRecyclerAdapter;
+import timber.log.Timber;
 
 
 public class LibraryActivity extends AppCompatActivity implements BookRecyclerAdapter.BookItemListener {
@@ -21,6 +22,7 @@ public class LibraryActivity extends AppCompatActivity implements BookRecyclerAd
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Timber.plant(new Timber.DebugTree());
 
         setContentView(R.layout.activity_library);
         secondFrameLayout = findViewById(R.id.container_secondary_frame_layout);
